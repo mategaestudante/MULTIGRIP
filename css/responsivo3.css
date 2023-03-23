@@ -1,0 +1,313 @@
+:root {
+    --var1:#9a1020;
+    --var2:#ff4f00;
+    --var3:#ffa300;
+    --var4:#fd5800;
+    --var5:#ff3403;
+    --font1:"Poppins", sans-serif;
+    --font2: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:1228px){
+    .menu{
+        padding-left: 150px;
+    }
+}
+@media screen and (max-width:1140px){
+    .menu{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:1050px){
+    .produtos{
+        height:360px;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:1040px){
+    .menu{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width:1006px){
+    .card-escolha{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:950px){
+    .menu{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    label{
+        display: block;
+    }
+    span#burguer{
+        display: block;
+        position: relative;
+        bottom: 50px;
+        float: right;
+        color: white;
+        cursor: pointer;
+    }
+    .lista-burguer{  
+       border-radius: 15px;
+       display: none;
+       background-color:var(--var2)  ;
+       height: 150px;
+       position: absolute;
+       top: 20px;
+       left: 101%;
+    }
+    input[type="checkbox"]:checked ~ .lista-burguer
+    {
+        transform: translateX(-115%);
+        display: block;
+    }
+    .lista-burguer ul{
+        width: 120px;
+        list-style-type: none;
+        border-radius: 30px;
+    
+    }
+    .lista-burguer li{
+        margin-top: 5px;
+        border-radius: 30px;
+        width: 120px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        color: white;
+    }
+    .lista-burguer li:hover{
+        border: 1px solid var(--var3);
+        background-color: var(--var3);
+        color: white;
+        transform: scale(1.1);
+        transition: all 0.2s;    
+    }
+    .lista-burguer a{
+        text-decoration: none;
+        height: 50px;
+        
+    }
+    .input2{
+        display: none;
+    }
+}
+@media screen and (max-width:931px){
+    .Direitos{
+        padding-top: 60px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.574);
+    }
+}
+@media screen and (max-width:860px){
+    .produtos{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:850px){
+    .card-compra img{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:795px){
+    .card-compra img{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:770px){
+    .card-compra img{
+        width: 316px;
+        height: 316px;
+    }
+}
+@media screen and (max-width:670px){
+    .card-compra img{
+        width: 216px;
+        height: 216px;
+    }
+}
+@media screen and (max-width:641px){
+    .Direitos{
+        padding-top: 25px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.574);
+    }
+}
+@media screen and (max-width:620px){
+    .card-escolha{
+        width: 150px;
+        
+    }
+    .card-escolha img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:617px){
+    .Direitos{
+        padding-top: 10px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.574);
+    }
+    footer{
+        height: 470px;
+    }
+}
+@media screen and (max-width:581px){
+    .card-compra{
+        flex: 50%;
+    }
+    .descrição-compra{
+        flex: 50%;
+        padding-top: 20px;
+    }
+    .caixa-footer{
+        display: block;
+    }
+    input{
+        width: 120px;
+    }
+    footer{
+        height: 750px;
+    }
+    .sociais{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .lista-img{
+       padding-left: 0;
+    }
+    .produtos{
+        margin-top: 100px;
+    }
+    .produtos{
+        height: 500px;
+    }
+
+
+}
+@media screen and (max-width:490px){
+    .card-escolha{
+        width: 100px;
+        
+    }
+    .card-escolha img{
+        width: 100px;
+        height: 100px;
+    }
+    .card-compra img{
+        margin-left: 20px;
+    }
+    .descrição-compra{
+        padding-left: 30px;
+    }
+    
+}
+@media screen and (max-width:465px){
+    .produtos{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width:435px){
+    .card-compra img{
+
+        width: 136px;
+        height: 136px;
+
+    }
+}
+@media screen and (max-width:420px){
+
+    .card-compra img{
+        width: 170px;
+        height: 170px;
+    }
+    
+
+}
+@media screen and (max-width:395px){
+
+    .produtos{
+        margin-top: 200px;
+    }
+
+}
+@media screen and (max-width:390px){
+    .card-compra img{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+@media screen and (max-width:370px){
+    .card-compra img{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:360px){
+    .descrição-compra{
+        padding-left: 10px;
+    }
+    input{
+        width: 100px;
+        font-size: initial;
+    }
+}
+@media screen and (max-width:340px){
+    .card-compra img{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (max-width:325px){
+    .produtos{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:320px){
+   .card-escolha{
+    width: 70px;
+   }
+   .card-escolha img{
+    width: 70px;
+    height: 70px;
+   }
+}
+@media screen and (max-width:305px){
+    .card-compra{
+        flex: 30%;
+    }
+    .descrição-compra{
+        flex: 70%;
+    }
+    .produtos{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:300px){
+    .produtos{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width:290px){
+    .descrição-compra{
+        padding: 3px;
+    }
+}
+@media screen and (max-width:270px){
+    .card-compra img{
+        width: 90px;
+        height: 90px;
+        padding-left: 0px;
+        margin-left: 5px;
+    }
+}

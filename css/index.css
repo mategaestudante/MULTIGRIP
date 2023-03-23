@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root {
+  --var1:#9a1020;
+  --var2:#ff4f00;
+  --var3:#ffa300;
+  --var4:#fd5800;
+  --var5:#ff3403;
+  --font1:"Poppins", sans-serif;
+  --font2: Arial, Helvetica, sans-serif;
+  }
+body{
+    font-family: var(--font2);
+}
+nav{
+    background-color: var(--var1);
+    display: flex;
+
+}
+.logo{
+    flex: 50%;
+    padding-top: 15px;
+    padding-left: 5%;
+}
+
+.menu{
+    flex: 50%;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: rgba(255, 255, 255, 0.53);
+}
+label{
+    display: none;
+}
+span#burguer{
+    display: none;
+    position: relative;
+    bottom: 50px;
+    float: right;
+    color: white;
+    cursor: pointer;
+}
+.lista-burguer{  
+   border-radius: 15px;
+   display: none;
+   background-color:var(--var2);
+   height: 180px;
+   position: absolute;
+   top: 20px;
+   left: 101%;
+}
+input[type="checkbox"]:checked ~ .lista-burguer
+{
+    transform: translateX(-115%);
+}
+.lista-burguer ul{
+    width: 120px;
+    list-style-type: none;
+    border-radius: 30px;
+
+}
+.lista-burguer li{
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+}
+.lista-burguer li:hover{
+    border: 1px solid --var4;
+    background-color: var(--var4);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s;    
+}
+.lista-burguer a{
+    text-decoration: none;
+    height: 50px;
+    
+}
+.input2{
+    display: none;
+}
+.introdução{
+    padding-top: 100px;
+    display: flex;
+    height: 700px;
+    background-color: var(--var1);
+    width: 100%;
+
+}
+.intro-txt{
+    flex: 50%;
+    background-image: url(/imagens/downloadseta-removebg-preview.png),url(/imagens/downloadseta-removebg-previewdireita.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0px 0px, 400px 360px;
+}
+.intro-img{
+    flex: 50%;
+}
+.intro-img img{
+    margin-left: 10%;
+}
+.intro-titulo{
+    color: white;
+    padding-left: 10%;
+    padding-top: 100px;
+    font-family: var(--font1);
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: bold;
+}
+.pg-intro{
+    padding-top: 20px;
+    padding-left: 10%;
+    color:#ffa20081 ;
+    font-weight: 600;
+    line-height: 30px;
+}
+.cor{
+    color: var(--var3);
+}
+.cor2{
+    color: black;
+
+}
+.cor3{
+    color: var(--var1);
+}
+.cards{
+    height: 800px;
+
+}
+.titulo-cards{
+    color: var(--var3);
+    padding-left: 10%;
+    padding-top: 100px;
+    font-family: var(--font1);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.controlador-cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards-caixa{
+    width: 390px;
+    height: 500px ;
+    background-color: var(--var4);
+    border-radius: 10px;
+}
+.titulo-cards-caixa{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+.pg-cards-caixa{
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.663);
+    font-weight: 600;
+    text-align: center;
+}
+.img-center{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.px64{
+    width: 64px;
+    height: 64px;
+}
+#relogio{
+    margin-top: 45px;
+
+
+}
+#garganta{
+    margin-top: 70px;
+
+}
+
+.relato{
+    height: 500px;
+    display: flex;
+}
+.relato-txt{
+    background-color: var(--var5);
+    flex: 50%;
+    background-image: url(/imagens/sinal-de-aspas-a-esquerda.png), url(/imagens/aspabaixo.png),;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
+}
+.relato-pg1{
+    padding-top: 100px;
+    flex: 50%;
+    background-color: var(--var5);
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.663);
+    text-align: center;
+    background-image: url(/imagens/aspa-esquerda.png), url(/imagens/aspas-direitas.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 60px 100px, 670px 240px;
+}
+.pg2-relato{
+    padding-top: 20px;
+    padding-left: 60px;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+.relato-img{
+    flex: 50%;
+}
+.relato-img img{
+    width: 100%;
+    height: 500px;
+}
+.cards-compra{
+    width: 280px;
+    height: 500px;
+}
+.cards-compra:hover{
+    opacity: 0.5;
+}
+.alinhar-txt-compra{
+    display: flex;
+    justify-content: center;
+}
+.comprar{
+    height: 750px;
+}
+.compras-txt{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.pai-cards-compra{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px
+}
+.pg-compras{
+    padding-top: 20px;
+    text-align: center;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: rgb(95, 92, 92);
+}
+.pg2-compras{
+    padding-top: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.botao-link{
+    text-decoration: none;
+}
+.botao{
+    width: 100px;
+    height: 50px;
+    background-color: var(--var2);
+    border-radius: 10px;
+}
+.botao-txt{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.botao-center{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: var(--var1);
+    height: 400px;
+}
+.caixa-footer{
+    display: flex;
+}
+.multigrip{
+    flex: 40%;
+    padding-left: 10%;
+    padding-top: 30px;
+}
+.contato{
+    padding-top: 30px;
+    flex: 30%;
+}
+
+.sociais{
+    padding-top: 30px;
+    flex: 30%;
+    border-left: 2px solid rgba(255, 255, 255, 0.574);
+    height: 10%;
+
+}
+.texto-pg-lista{
+    color: white;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding-left: 35px;
+}
+.lista-footer{
+    list-style: none;
+    line-height: 40px;
+}
+.lista-footer li{
+    color: rgba(255, 255, 255, 0.574);
+   
+}
+
+#adress{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.574);
+    width: 80%;
+}
+#adress2{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.574);
+    width: 80%;
+
+}
+.lista-img{
+    margin-top: 20px;
+    padding-left:40px ;
+}
+.lista-img img{
+    margin-right: 10px;
+}
+.none-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.574);
+}
+.Direitos{
+    padding-top: 100px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.574);
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.link-card-none{
+    text-decoration: none;
+}
+.link-card-none p{
+    color: black;
+}

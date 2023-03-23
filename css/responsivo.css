@@ -1,0 +1,716 @@
+@media screen and (max-width:1300px){
+    .menu{
+        padding-left: 10%;
+    }
+    .intro-img img{
+        margin: 0;
+    }
+    .relato-pg1{
+        padding-top: 100px;
+        flex: 50%;
+        background-color: var(--var5);
+        font-family: 'Lobster', cursive, sans-serif;
+        font-size: 2rem;
+        color: rgba(255, 255, 255, 0.663);
+        text-align: center;
+        background-image: url(/imagens/aspa-esquerda.png), url(/imagens/aspas-direitas.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 20px 100px, 610px 220px;
+    }
+}
+@media screen and (max-width:1230px){
+    .relato-pg1{
+        padding-top: 100px;
+        flex: 50%;
+        background-color: var(--var5);
+        font-family: 'Lobster', cursive, sans-serif;
+        font-size: 2rem;
+        color: rgba(255, 255, 255, 0.663);
+        text-align: center;
+        background-image: url(/imagens/aspa-esquerda.png), url(/imagens/aspas-direitas.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10px 90px, 580px 210px;
+    }
+}
+@media screen and (max-width:1210px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10px 80px, 560px 205px;
+    }
+
+}
+@media screen and (max-width:1205px){
+        .cards-caixa{
+            width: 350px;
+        }
+}
+@media screen and (max-width:1188px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10px 80px, 540px 230px;
+    }
+}
+@media screen and (max-width:1160px){
+    .intro-img img{
+        width: 400px;
+        height: 400px;
+    }
+    .intro-img{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1150px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 5px 80px, 530px 250px;
+    }
+    .cards-compra{
+        width: 250px;
+    }
+    .cards-compra img{
+        width: 250px;
+        height: 250px;
+
+    }
+}
+@media screen and (max-width:1130px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10px 50px, 510px 260px;
+    }
+}
+@media screen and (max-width:1090px){
+    .cards-caixa{
+        width: 320px;
+    }
+}
+@media screen and (max-width:1070px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10px 50px, 490px 320px;
+    }
+}
+@media screen and (max-width:1065px){
+    .Direitos{
+        padding-top: 0;
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width:1060px){
+    .introdução{
+        padding-top: 50px;
+    }
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,400px 560px;
+    }
+}
+@media screen and (max-width:1050px){
+    .menu{
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width:1040px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10px 50px, 475px 320px;
+    }
+}
+@media screen and (max-width:1035px){
+    .cards-compra{
+        width: 225px;
+    }
+    .cards-compra img{
+        width: 225px;
+        height: 225px;
+    }
+}
+@media screen and (max-width:1020px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 330px 350px;
+    }
+}
+@media screen and (max-width:1000px){
+    .cards-caixa{
+        width: 300px;
+    }
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 320px 385px;
+    }
+}
+@media screen and (max-width:935px){
+    .menu{
+        padding-left: 0;
+    }
+    .cards-caixa{
+        width: 280px;
+        height: 550px;
+    }
+}
+@media screen and (max-width:930px){
+    .cards-compra{
+        width: 200px;
+    }
+    .cards-compra img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:900){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 400px 385px;
+    }
+}
+@media screen and (max-width:880px){
+    .cards{
+        height: 900px;
+    }
+    .cards-caixa{
+        width: 260px;
+        height: 580px;
+    }
+    
+}
+@media screen and (max-width:845px){
+    nav{
+        display: block;
+    }
+   .menu{
+    display: none;
+   }
+   .logo{
+    display: flex;
+    justify-content: center;
+
+   }
+   label{
+    display: inline;
+}
+span#burguer{
+    display: block;
+    position: relative;
+    bottom: 50px;
+    float: right;
+    color: white;
+    cursor: pointer;
+}
+.lista-burguer{  
+   border-radius: 15px;
+   display: none;
+   background-color:var(--var2)  ;
+   height: 150px;
+   position: absolute;
+   top: 20px;
+   left: 101%;
+}
+input[type="checkbox"]:checked ~ .lista-burguer
+{
+    transform: translateX(-115%);
+    display: block;
+}
+.lista-burguer ul{
+    width: 120px;
+    list-style-type: none;
+    border-radius: 30px;
+
+}
+.lista-burguer li{
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+}
+.lista-burguer li:hover{
+    border: 1px solid var(--var3);
+    background-color: var(--var3);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s;    
+}
+.lista-burguer a{
+    text-decoration: none;
+    height: 50px;
+    
+}
+.input2{
+    display: none;
+}
+   .cards{
+    height: 1850px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .controlador-cards{
+    display: block;
+    margin: auto;
+}
+.cards-caixa{
+    margin-top: 20px;
+    width: 320px;
+    height: 500px;
+}
+.comprar .compras-txt{
+    display: block;
+}
+.comprar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1300px;
+    margin: auto;
+}
+
+.pai-cards-compra{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  
+    margin-top: 35px
+}
+.cards-compra{
+    width: 280px;
+    height: 500px;
+}
+.cards-compra img{
+    width:  280px ;
+    height: 280px;
+}
+
+}
+@media screen and (max-width:805px){
+    .introdução{
+        padding-top: 20px;
+        display: block;
+        height: 950px;
+    }
+    .intro-txt{
+        background-position: 20px 30px ,450px 380px;
+        
+    }
+}
+@media screen and (max-width:770px){
+    .Direitos{
+        padding-top: 0;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:705px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 310px 390px;
+    }
+    
+}
+@media screen and (max-width:685px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 270px 390px;
+    }
+}
+@media screen and (max-width:605px){
+
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 220px 420px;
+    }
+
+}
+@media screen and (max-width:590px){
+    .caixa-footer{
+
+        display: block;
+
+    }
+    footer{
+        height: 600px;
+    }
+}
+@media screen and (max-width:580px){
+    .cards-compra{
+        width: 240px;
+        height: 500px;
+    }
+    .cards-compra img{
+        width:  240px ;
+        height: 240px;
+    }
+}
+@media screen and (max-width:565px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px, 220px 460px;
+    }
+}
+@media screen and (max-width:535px){
+    .intro-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,380px 560px;
+    }
+    
+}
+@media screen and (max-width:531px){
+    .relato-img{
+        display: none;
+    }
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px,320px 300px;
+    }
+
+}
+@media screen and (max-width:521px){
+    .cards{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:519px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px,320px 340px;
+    }
+}
+@media screen and (max-width:500px){
+    .cards-compra{
+        width: 200px;
+        height: 500px;
+    }
+    .cards-compra img{
+        width:  200px ;
+        height: 200px;
+    }
+    .comprar{
+        height: 1400px;
+    }
+}
+@media screen and (max-width:509px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px,320px 380px;
+    }
+}
+@media screen and (max-width:460px){
+    .relato-pg1{
+        background-repeat: no-repeat, no-repeat;
+        background-position: 7px 85px,330px 380px;
+    }
+}
+@media screen and (max-width:450px){
+     .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,360px 580px;
+    }
+}
+@media screen and (max-width:430px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,340px 580px;
+    }
+}
+@media screen and (max-width:420px){
+    .cards-compra{
+        width: 180px;
+        height: 500px;
+    }
+    .cards-compra img{
+        width:  180px ;
+        height: 180px;
+    }
+}
+@media screen and (max-width:415px){
+    .intro-titulo{
+        font-size: 2rem;
+
+    }
+    .titulo-cards{
+        font-size: 2rem;
+    }
+    .intro-txt{
+        background-image: none;
+    }
+}
+@media screen and (max-width:410px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,320px 580px;
+        background-image: none;
+    }
+}
+@media screen and (max-width:385px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,300px 620px;
+        background-image: none;
+    }
+}
+@media screen and (max-width:380px){
+    .cards-compra{
+        width: 150px;
+        height: 500px;
+    }
+    .cards-compra img{
+        width:  150px ;
+        height: 150px;
+    }
+}
+@media screen and (max-width:370px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,280px 620px;
+        background-image: none;
+    }
+}
+@media screen and (max-width:350px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,250px 620px;
+        background-image: none;
+    }
+
+}
+@media screen and (max-width:340px){
+    .introdução{
+        height: 1050px;
+    }
+    .intro-img img{
+        width: 240px;
+        height: 240px;
+    }
+    .cards-caixa{
+        width:280px ;
+    }
+}
+@media screen and (max-width:338px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,250px 670px;
+        background-image: none;
+    }
+}
+@media screen and (max-width:331px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,250px 720px;
+        background-image: none;
+    }
+    footer{
+        height: 700px;
+    }
+}
+@media screen and (max-width:330px){
+    .cards-compra{
+        width: 140px;
+        height: 500px;
+    }
+    .cards-compra img{
+        width:  140px ;
+        height: 140px;
+    }
+}
+@media screen and (max-width:320px){
+    .relato-pg1{
+        padding-top: 0;
+        background-image: none;
+    }
+    .relato-txt{
+        background-image: none;
+    }
+}
+@media screen and (max-width:318px){
+    .relato-pg1{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width:313px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,230px 750px;
+        background-image: none;
+    }
+}
+@media screen and (max-width:310px){
+    .intro-txt{
+        background-image: none;
+        background-image: url(/imagens/downloadseta-removebg-preview64px.png), url(/imagens/downloadseta-removebg-previewdireita64px.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0px 30px ,200px 770px;
+        background-image: none;
+    }
+}
+@media screen and (max-width:300px){
+     .cards-caixa{
+        width: 250px;
+        height: 550px;
+     }
+     .relato-pg1{
+        padding-top: 0;
+     }
+     .cards-compra{
+        width: 120px;
+        height: 370px;
+     }
+     .cards-compra img{
+        width: 120px;
+     }
+     .cards{
+        height: 2200px;
+     }
+}
+@media screen and (max-width:270px){
+    .cards-caixa{
+        width: 220px;
+        height: 650px;
+        margin-top: 40px;
+    }
+    .cards{
+        height: 1700px;
+    }
+    .pg-cards-caixa{
+        font-size: 14px;
+    }
+    .cards-caixa{
+        height: 400px;
+    }
+}
+@media screen and (max-width:265px){
+    .relato-pg1{
+        font-size: 1rem;
+        background-image: none;
+    }
+    .pg2-relato{
+        font-size: 1.2rem;
+        padding-left: 0;
+    }
+    .relato-txt{
+        height: 300px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:261px){
+    .comprar{
+        height: 1400px;
+    }
+}
+@media screen and (max-width:260px){
+
+    .pai-cards-compra{
+        display: grid;
+        grid-template-columns:1fr;
+        margin: auto;
+        margin-top: 35px
+    }
+    .comprar{
+        height: 2000px;
+    }
+    .cards-compra{
+        margin-top: 30px;
+    }
+    .intro-img img{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+@media screen and (max-width:240px){
+    .intro-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .cards-caixa{
+        width: 150px;
+        height: 550px;
+    }
+    .cards{
+        height: 2200px;
+    }
+    .titulo-cards{
+        font-size: 1.3rem;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .intro-titulo{
+        font-size: 1.5rem;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .logo img{
+        width: 90px;
+    }
+    .pg-intro{
+        padding-left: 0;
+    }
+    .intro-img img{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width:222px){
+    .texto-pg-lista{
+        padding-left: 0;
+    }
+    .lista-footer{
+        padding-left: 0;
+    }
+    .contato{
+        padding-left: 0;
+    }
+    .multigrip{
+        padding-left: 0;
+    }
+    .lista-img{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    footer{
+        height: 900px;
+    }
+    .multigrip img{
+        width: 90px;
+    }
+    #email{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:170px){
+    .cards-caixa{
+        width: 120px;
+        height: 620px;
+    }
+}
